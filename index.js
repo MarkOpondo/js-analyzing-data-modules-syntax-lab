@@ -5,6 +5,8 @@ function combineUsers(...args)  {
     users: []
   }
 
+
+  // Im not sure how to handle this yet
   for (const arg in args) {
     // const combinedUsers = [combinedObject.users, ...arg]
     combinedObject.users.push(...arg)
