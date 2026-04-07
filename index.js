@@ -6,10 +6,9 @@ const combineUsers = (...args) => {
   }
 
 
-  // Im not sure how to handle this yet
   for (const arg of args) {
     // const combinedUsers = [combinedObject.users, ...arg]
-    combinedObject.users.push(...arg)
+    combinedObject.users.push(...args)
     // combinedObject.users = combinedUsers
   }
 
