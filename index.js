@@ -1,13 +1,13 @@
 require('datejs')
 
-function combineUsers(...args)  {
+const combineUsers = (...args) => {
   const combinedObject = {
     users: []
   }
 
 
   // Im not sure how to handle this yet
-  for (const arg in args) {
+  for (const arg of args) {
     // const combinedUsers = [combinedObject.users, ...arg]
     combinedObject.users.push(...arg)
     // combinedObject.users = combinedUsers
